@@ -417,3 +417,53 @@ html {
     margin-bottom: 8.1rem;
   }
 }
+
+/* footer */
+.footer {
+  & a {
+    font-family: $font-family;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #4c4764;
+  }
+  padding-top: 5.7rem;
+  padding-bottom: 5.7rem;
+  background: #f8f8f9;
+  &__wrapper {
+    display: flex;
+    gap: 13.1rem;
+  }
+  &__logo {
+    margin-bottom: 2.4rem;
+  }
+  &__text {
+    font-family: $font-family;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 187%;
+    letter-spacing: 0.01em;
+    color: #4c4764;
+    margin-bottom: 2.4rem;
+  }
+  &__social {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    &-item--top{
+      margin-bottom: 1.2rem;
+      & a {
+        font-family: $font-family;
+        font-weight: 700;
+        font-size: 1.6rem;
+        line-height: 150%;
+        color: #100a30;
+      }
+    }
+  }
+}
