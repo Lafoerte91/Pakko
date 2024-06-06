@@ -90,6 +90,7 @@ html {
   font-size: 10px;
 }
 
+/* header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -126,4 +127,65 @@ html {
   text-align: center;
   color: #fff;
   padding: 1.2rem 2.4rem;
+}
+
+/* banner */
+.banner {
+  text-align: center;
+  background: #100a30;
+  padding-top: 6.4rem;
+}
+.banner__title {
+  max-width: 67.4rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 5.5rem;
+  line-height: 116%;
+  letter-spacing: 0.01em;
+  color: #fff;
+  margin: 0 auto;
+  margin-bottom: 2.6rem;
+}
+.banner__text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 187%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 4.8rem;
+}
+
+.btn__group {
+  margin: 0 auto;
+  max-width: 39.4rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.6rem;
+}
+.btn__group-btn {
+  width: 16.8rem;
+  height: 5.4rem;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: #fff;
+  padding: 1.5rem -3.7rem;
+  border: 1px solid #c3c1cb;
+  border-radius: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn__group-btn--main {
+  width: 21rem;
+  height: 5.4rem;
+  border-radius: 0.6rem;
+  background: #624de3;
+  font-size: 1.5rem;
+  line-height: 160%;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
