@@ -90,6 +90,13 @@ html {
   font-size: 10px;
 }
 
+.container {
+  max-width: 123.2rem;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 /* header */
 .header {
   display: flex;
@@ -134,6 +141,15 @@ html {
   text-align: center;
   background: #100a30;
   padding-top: 6.4rem;
+  position: relative;
+  padding-bottom: 75.7rem;
+}
+.banner__img {
+  position: absolute;
+  bottom: -17.2rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 .banner__title {
   max-width: 67.4rem;
@@ -188,4 +204,147 @@ html {
   font-size: 1.5rem;
   line-height: 160%;
   border: none;
+}
+
+/* tariff */
+.section {
+  padding-top: 21.6rem;
+  padding-bottom: 8.6rem;
+}
+.section__title {
+  max-width: 59.1rem;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 117%;
+  color: #100a30;
+}
+
+.tariff {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.4rem;
+}
+.tariff__list {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 157%;
+  color: #100a30;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding-left: 3.2rem;
+}
+.tariff__list-item {
+  position: relative;
+}
+.tariff__list-item::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  bottom: 0;
+  left: -29px;
+  background-image: url("../images/check-01.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.tariff-info__title {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 100%;
+  align-self: flex-end;
+  margin-bottom: 1.4rem;
+  position: relative;
+}
+.tariff-info__title::before {
+  content: "";
+  position: absolute;
+  width: 6.1rem;
+  height: 1.6rem;
+  background-image: url("../images/pakko.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  top: -28px;
+}
+.tariff__header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-left: 3rem;
+  padding-right: 3.6rem;
+  padding-top: 15.8rem;
+  padding-bottom: 2.4rem;
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+.tariff__footer {
+  padding-left: 3rem;
+  padding-top: 2.4rem;
+  padding-bottom: 2.6rem;
+}
+.tariff-item {
+  border-radius: 0.8rem;
+  padding-top: 15.8rem;
+}
+.tariff-item__01 .tariff__footer {
+  background: rgba(16, 10, 48, 0.03);
+}
+.tariff-item__01 .tariff-info__title {
+  color: #fff;
+}
+.tariff-item__01 .tariff__header {
+  background-image: url("../images/tariff-01.png");
+}
+.tariff-item__02 .tariff__footer {
+  background: rgba(25, 199, 135, 0.05);
+}
+.tariff-item__02 .tariff-info__title {
+  color: #19c787;
+}
+.tariff-item__02 .tariff__header {
+  background-image: url("../images/tariff-02.png");
+}
+.tariff-item__02 .tariff__list-item::before {
+  background-image: url("../images/check-02.svg");
+}
+.tariff-item__03 .tariff__footer {
+  background: rgba(252, 185, 52, 0.05);
+}
+.tariff-item__03 .tariff-info__title {
+  color: #ff9f1c;
+}
+.tariff-item__03 .tariff__header {
+  background-image: url("../images/tariff-03.png");
+}
+.tariff-item__03 .tariff__list-item::before {
+  background-image: url("../images/check-03.svg");
+}
+.tariff-info {
+  display: flex;
+  justify-content: space-between;
+  width: 32.8rem;
+}
+.tariff-info__price {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 4.8rem;
+  line-height: 117%;
+  color: #fff;
+  position: relative;
+  display: flex;
+  gap: 0.8rem;
+}
+.tariff-info__price span {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 213%;
+  text-align: right;
+  align-self: flex-end;
 }/*# sourceMappingURL=style.css.map */
